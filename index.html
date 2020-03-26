@@ -10,6 +10,7 @@
 </head>
 <body>
     <header class="header"> 
+        <div class="container">
             <figure class="logo">
                 <img src="images/logo.png" width ="140px" height="70px" alt="Logo de la página"/>
             </figure>
@@ -26,48 +27,95 @@
                     </li>
                 </ol>
             </nav>
+        </div>
     </header>
     <section class="hero">
-        <h1>
-            ¡Hola! Soy <strong>Pedro Silva</strong> <br/> <strong>Desarrollador</strong> Web y<br/> <strong>Creador</strong> de Contenido
-        </h1>
-        <!--<img src="images/hero.jpg" width="300" height="300" alt="Imagen principal del sitio"/>-->
+        <div class="container">
+            <h1>
+                ¡Hola! Soy <strong>Pedro Silva</strong> <br/> <strong>Desarrollador</strong> Web y<br/> <strong>Creador</strong> de Contenido
+            </h1>
+            <img src="images/hero.jpg" class="hero-image" width="300" height="300" alt="Imagen principal del sitio"/>
+        </div>
     </section>
     <section id="Portafolio" class="portfolio">
-        <h2>Portafolio (Proyectos Destacados)</h2>
-        <article class="project">
-            <div class="project-details">
-                <figure>
-                    <h3 class="project-title">Escuela de Películas</h3>
-                    <h4 class="project-about">Sitio web para cinéfilos</h4>
-                    <p class="project-description">Escuela de Películas es un blog creado para fanáticos del cine, que no necesariamente estudian cine<br>
-                         Comparto mis reviews y críticas de películas de películas y de vez en cuando me gusta recomendar algún film.</p>
-                    <p class="project-url">Pudes verlo en: <a href="https://escueladepeliculas.com/" target="_blank"><strong>www.escueladepeliculas.com</strong></a><br/>
-                    y en instagram como <a href="https://www.instagram.com/escueladepeliculas" target="_blank"><strong>@escueladepeliculas</strong></a></p>
-                </figure>
-                <figure class="project-imageContainer">
-                        <img src="images/escueladepeliculas.png" alt="Imagen de escueladepeliculas.com" width="250" height="250"/>
-                </figure>
-            </div>
-        </article>
+        <div class="container">
+            <h2>Portafolio (Proyectos Destacados)</h2>
+            <article class="project">
+                <div class="project-details">
+                    <figure>
+                        <h3 class="project-title">Escuela de Películas</h3>
+                        <h4 class="project-about">Sitio web para cinéfilos</h4>
+                        <p class="project-description">Escuela de Películas es un blog creado para fanáticos del cine, que no necesariamente estudian cine<br>
+                             Comparto mis reviews y críticas de películas de películas y de vez en cuando me gusta recomendar algún film.</p>
+                        <p class="project-url">Pudes verlo en: <a href="https://escueladepeliculas.com/" target="_blank"><strong>www.escueladepeliculas.com</strong></a><br/>
+                        y en instagram como <a href="https://www.instagram.com/escueladepeliculas" target="_blank"><strong>@escueladepeliculas</strong></a></p>
+                    </figure>
+                    <figure class="project-imageContainer">
+                            <img src="images/escueladepeliculas.png" alt="Imagen de escueladepeliculas.com" width="250" height="250"/>
+                    </figure>
+                </div>
+            </article>
+        </div>
     </section>
-    <section id="Cursos">
-        <h2>Más sobre mi experiencia</h2>
-        <article class="event">
-            <figure class="event-imageContainer">
-                <h3 class="event-title">Curso Profesional de Git y Github</h3>
-                <p class="event-description">Dominio pleno del sistema de control de versiones</p>
-                <a class="event-url" href="https://platzi.com/clases/git-github/" target="_blank">www.platzi.com/git</a>
-                <img class="event-image" src="images/git.png" alt="Imagen del curso profesional de Git y Github" width="200" height="200"/>
-            </figure>
-        </article>
-    </section>
+    <div class="container">
+        <h2 class="event-list-tittle">Más sobre mi experiencia</h2>
+        <section id="Cursos" class="event-list">
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="images/git.png" alt="Imagen del curso profesional de Git y Github" width="200" height="200"/>
+                </figure>
+                <div class="event-details">
+                    <h3 class="event-title">Curso Profesional de Git y Github</h3>
+                    <p class="event-description">Dominio pleno del sistema de control de versiones</p>
+                    <a class="event-url" href="https://platzi.com/@pedro-alejandro-silva-perez/curso/1557-git-github/diploma/detalle/" target="_blank">Ver Certificado</a>
+                </div>
+                </article>
+            <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-image" src="images/git.png" alt="Imagen del curso profesional de Git y Github" width="200" height="200"/>
+                    </figure>
+                    <div class="event-details">
+                        <h3 class="event-title">Curso Profesional de Git y Github</h3>
+                        <p class="event-description">Dominio pleno del sistema de control de versiones</p>
+                        <a class="event-url" href="https://platzi.com/@pedro-alejandro-silva-perez/curso/1557-git-github/diploma/detalle/" target="_blank">Ver Certificado</a>
+                    </div>
+            </article>
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="images/git.png" alt="Imagen del curso profesional de Git y Github" width="200" height="200"/>
+                </figure>
+                <div class="event-details">
+                    <h3 class="event-title">Curso Profesional de Git y Github</h3>
+                    <p class="event-description">Dominio pleno del sistema de control de versiones</p>
+                    <a class="event-url" href="https://platzi.com/@pedro-alejandro-silva-perez/curso/1557-git-github/diploma/detalle/" target="_blank">Ver Certificado</a>
+                </div>
+            </article>
+            <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-image" src="images/git.png" alt="Imagen del curso profesional de Git y Github" width="200" height="200"/>
+                    </figure>
+                    <div class="event-details">
+                        <h3 class="event-title">Curso Profesional de Git y Github</h3>
+                        <p class="event-description">Dominio pleno del sistema de control de versiones</p>
+                        <a class="event-url" href="https://platzi.com/@pedro-alejandro-silva-perez/curso/1557-git-github/diploma/detalle/" target="_blank">Ver Certificado</a>
+                    </div>
+            </article>
+        </section>
+    </div>
     <section class="contact" id="Contacto">
-        <form class="form-email" action="/suscripcion">
-            <h3>¿Creamos algo juntos?</h3>
-            <input type="text" placeholder="Déjame tu email" id="email"/> 
-            <button>Enviar</button>
-        </form>
+        <div class="container">
+            <form class="form-email" action="/suscripcion">
+                <h3>¿Creamos algo juntos?</h3>
+                <input type="text" placeholder="Déjame tu email" id="email"/> 
+                <button>Enviar</button>
+            </form>
+            <div class="social">
+                <a href="https://twitter.com/pedroale_sp" class="social-link twitter" target="_blank"></a>
+                <a href="" class="social-link facebook" target="_blank"></a>
+                <a href="https://github.com/pedroalesp" class="social-link github" target="_blank"></a>
+                <a href="https://www.instagram.com/pedroalej_" class="social-link instagram" target="_blank"></a>
+            </div>
+        </div>
     </section>
     <footer class="footer">
         <div>
