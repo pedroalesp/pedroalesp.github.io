@@ -479,6 +479,11 @@ figure {
         text-align: center;
         border: 1px solid transparent;
     }
+
+    .event-image {
+        width: 150px;
+        height: 150px;
+    }
 }
 
 @media screen and (max-width: 320px) {
