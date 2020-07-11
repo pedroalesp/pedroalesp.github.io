@@ -1,2 +1,2 @@
-# Portfolio
-This is my portfolio, here I will show my skills and proyects.
+# Rock-paper-Scissors
+This is a game created with JavaScript and a little bit of CSS.
