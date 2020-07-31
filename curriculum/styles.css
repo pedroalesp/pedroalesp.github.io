@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    font-family: 'Heebo', sans-serif;
+    background-color: #efefef;
+}
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #2775dd;
+}
+.container {
+    height: 100%;
+    width: 70%;
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    bottom: 30px;
+    left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 20px;
+    font-size: 13px;
+    box-shadow: 2px 1px 4px 2px rgb(65, 62, 62);
+}
+.blocks {
+    position: relative;
+    height: 130%;
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blocks strong {
+    color: #000
+}
+.presentation--container__img {
+    width: 150px;
+    height: 150px;
+    border-radius: 130px;
+    overflow: hidden;
+    position: absolute;
+    left: 83px;
+    top: 44px;
+    right: 0;
+}
+.img {
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.presentation--container__name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2775dd;
+    border-radius: 26px;
+    flex-direction: column;
+    width: 240px;
+    height: 150px;
+    padding: 0 1%;
+}
+.presentation--container__name h2, h3 {
+    margin: 0;
+    font-weight: 300;
+}
+.presentation--container__name h3 {
+    color: #fff;
+    font-family: 'Heebo', sans-serif;
+}
+.presentation--contact {
+    color: #5b5e66;
+    align-self: center;
+    padding-top: 30%;
+    
+}
+.presentation--contact strong{
+    color: #000;
+    
+}
+.presentation--contact h3{
+    font-weight: bold;
+}
+.info--perfil {
+    color: #5b5e66;
+    background-color: #fff;
+    margin: 50px 0 0 0;
+    border-radius: 20px;
+    width: 60%;
+    padding: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 270px;
+    box-shadow: 1px 1px 2px 1px rgb(65, 62, 62);
+}
+.info--perfil h3 {
+    font-weight: bold;
+}
+.info--education h3 {
+    font-weight: bold;
+}
+.info--education {
+    color: #5b5e66;
+    background-color: #fff;
+    margin: 15px 0 80px 0;
+    border-radius: 20px;
+    width: 60%;
+    padding: 6%;
+    display: flex;
+    flex-direction: column;
+    height: 465px;
+    align-items: flex-start;
+    justify-content: center;
+    box-shadow: 1px 1px 2px 1px rgb(65, 62, 62);
+}
+.info--education__platzi ol {
+    list-style: disc;
+}
+.projects--highlights {
+    color: #5b5e66;
+    background-color: #fff;
+    margin: 50px 0 30px 0;
+    border-radius: 20px;
+    width: 60%;
+    padding: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    box-shadow: 1px 1px 2px 1px rgb(65, 62, 62);
+}
+.projects h3 {
+    font-weight: bold;
+}
+.projects--highlights a {
+    text-decoration: none;
+    color: #5b5e66;
+}
+.projects--skills {
+    color: #5b5e66;
+    background-color: #fff;
+    margin: 0px 0 30px 0;
+    border-radius: 20px;
+    width: 60%;
+    padding: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 180px;
+    box-shadow: 1px 1px 2px 1px rgb(65, 62, 62);
+}
+.projects--skills strong {
+    color: #000;
+}
