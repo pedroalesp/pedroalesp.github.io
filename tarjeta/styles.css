@@ -1,0 +1,100 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  color: #e0fbfc;
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: 'Acme', sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  background-color: #ee6c4d;
+}
+
+.header img {
+  width: 314px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.header > h1,
+h5,
+h2 {
+  margin: 2px 5px;
+}
+
+.message {
+  background-color: #b56576;
+  padding: 2px 5px;
+}
+
+.message__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.virus {
+  width: 150px;
+}
+
+.plane {
+  width: 150px;
+}
+
+.reflextion {
+  background-color: #e8d1c5;
+  padding: 2px 5px;
+}
+
+.reflextion__container {
+  display: flex;
+  flex-direction: row-reverse;
+  color: #b56576;
+}
+
+.proud {
+  background-color: #f6e8ea;
+  padding: 2px 5px;
+}
+
+.proud__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #a13a33;
+}
+
+.proud__container p {
+  margin: 0;
+}
+
+.proud__container--text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.girl {
+  width: 200px;
+}
+
+.final {
+  background-color: #f7e1d7;
+}
+
+.footer {
+  background-color: #f14e25;
+  color: #e0fbfc;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
